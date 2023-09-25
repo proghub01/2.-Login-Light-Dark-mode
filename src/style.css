@@ -1,0 +1,161 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#light {
+    background: linear-gradient(120deg,#E483D3, #FF9943);
+}
+
+#light .onOff {
+    color: rgb(212, 60, 60);
+}
+
+#dark .lightDarkMode {
+    border-bottom: 1px solid white;
+}
+
+#dark .onOff {
+    color: #008800;
+}
+
+#dark {
+    background-color: #0F0F0F;
+}
+
+#dark .lightDarkMode {
+    color: white
+}
+
+#dark #registerBtn button {
+    background: linear-gradient(120deg, #514FFE, #7472e6, #4f9bfe);
+}
+
+#dark .siteInfo {
+    background: linear-gradient(120deg, #514FFE, #7472e6, #4f9bfe);
+}
+
+.registerForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 900px;
+    height: 55%;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.100);
+}
+
+.registerFormBlock {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: all ease 0.5s;
+    background-color: white;
+    border-radius: 20px;
+}
+.registerFormBlock:hover {
+    width: 70%;
+}
+
+#registerInputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    outline: none;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+#registerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#registerBtn button {
+    transition: all ease 0.5s;
+    width: 55%;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(120deg, #E688D4, #2bbce9);
+}
+#registerBtn button:hover {
+    width: 60%;
+}
+
+.siteInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    transition: all ease 0.5s;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #0F0F0F;
+    background-image: url('images/1.png');
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+}
+.siteInfo:hover {
+    width: 70%;
+}
+.siteInfo p {
+    padding: 10px;
+}
+
+.lightDarkMode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+}
+
+#forgotPassword p {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+#forgotPassword p:hover {
+    color: #93BEE1;
+}
